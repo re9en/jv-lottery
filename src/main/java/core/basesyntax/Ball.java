@@ -9,7 +9,7 @@ public class Ball {
         this.number = number;
     }
 
-    public Color getColors() {
+    public Color getColor() {
         return color;
     }
 
@@ -19,6 +19,6 @@ public class Ball {
 
     @Override
     public String toString() {
-        return ("Color: " + getColors() + ", " + "Number " + getNumber());
+        return ("Color: " + getColor() + ", " + "Number " + getNumber());
     }
 }
